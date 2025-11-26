@@ -28,19 +28,6 @@ Accept: application/json
 
 ---
 
-## Como Executar
-
-1. Certifique-se de ter o Java 11+ e Maven instalados.
-2. Adicione sua chave da RapidAPI no arquivo MovieService.java.
-3. Execute via terminal no diretório do projeto:
-
-mvn clean install
-mvn exec:java
-
-Ou, no NetBeans, clique em "Run".
-
----
-
 ## Funcionalidades
 
 - Exibição de lista atualizada dos filmes mais populares
