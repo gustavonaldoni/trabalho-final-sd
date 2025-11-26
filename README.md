@@ -6,6 +6,16 @@ Projeto desenvolvido para a disciplina de Sistemas Distribuídos, do curso de Ci
 
 ---
 
+## Funcionalidades
+
+- Exibição de lista atualizada dos filmes mais populares
+- Apresentação de título, ano, nota e poster
+- Consumo de API real sem scraping
+- Interface simples e responsiva
+- Estrutura modular
+
+---
+
 ## Tecnologias Utilizadas
 
 - Java 11+
@@ -21,17 +31,12 @@ Projeto desenvolvido para a disciplina de Sistemas Distribuídos, do curso de Ci
 Endpoint consultado:
 GET https://imdb236.p.rapidapi.com/api/imdb/most-popular-movies
 
-Autenticação via cabeçalhos:
-x-rapidapi-key: <SUA_CHAVE_AQUI>
-x-rapidapi-host: imdb236.p.rapidapi.com
-Accept: application/json
+## Autenticação via cabeçalhos:
 
----
+| Header | Descrição |
+|--------|-----------|
+| `x-rapidapi-key` | Chave de acesso do usuário |
+| `x-rapidapi-host` | Provedor do serviço IMDb na RapidAPI |
+| `Accept: application/json` | Define o retorno JSON |
 
-## Funcionalidades
 
-- Exibição de lista atualizada dos filmes mais populares
-- Apresentação de título, ano, nota e poster
-- Consumo de API real sem scraping
-- Interface simples e responsiva
-- Estrutura modular seguindo princípios de Clean Code
